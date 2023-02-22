@@ -26,6 +26,5 @@ class TestCircleArea(unittest.TestCase):
         self.assertRaises(TypeError, circle_area, [42])
         self.assertRaises(TypeError, circle_area, True) 
 
-         
 if __name__ == '__main__':
     unittest.main() 
