@@ -9,3 +9,5 @@ def circle_area(radius):
 # for r in r_list:
 #     s = circle_area(r)
 #     print(message.format(radius=r, area=s))
+def circle_lenght(radius):
+    return 2*pi*radius
